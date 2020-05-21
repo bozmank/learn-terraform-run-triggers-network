@@ -7,7 +7,7 @@ variable aws_region {
 variable project_tag {
   description = "Value of the 'Project' tag for all resources"
   type        = string
-  default     = "learn-terraform-run-triggers"
+  default     = "Bozman-terraform-run-triggers"
 }
 
 variable vpc_cidr_block {
@@ -47,6 +47,6 @@ variable subnet_cidr_blocks {
     "10.0.13.0/24",
     "10.0.14.0/24",
     "10.0.15.0/24",
-    "10.0.16.0/24"
+    "10.0.17.0/24"
   ]
 }
